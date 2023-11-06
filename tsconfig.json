@@ -7,6 +7,8 @@
         "strict": true,
         "sourceMap": true,
         "declaration": true,
+        "skipDefaultLibCheck": false,
+        "skipLibCheck": false,
         "allowSyntheticDefaultImports": true,
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
@@ -18,5 +20,8 @@
     },
     "include": [
         "src"
+    ],
+    "exclude": [
+        "node_modules"
     ]
 }

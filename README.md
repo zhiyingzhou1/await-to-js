@@ -23,15 +23,15 @@ You can use babel or typescript for that.
 ## Install
 
 ```sh
-npm i await-to-js --save
+npm i @atom/await-to-js --save
 ```
 
 ## Usage
 
 ```js
-import to from 'await-to-js';
+import to from '@atom/await-to-js';
 // If you use CommonJS (i.e NodeJS environment), it should be:
-// const to = require('await-to-js').default;
+// const to = require('@atom/await-to-js').default;
 
 async function asyncTaskWithCb(cb) {
      let err, user, savedTask, notification;
